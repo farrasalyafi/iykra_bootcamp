@@ -1,12 +1,12 @@
 
-a.) A customer wants to know the films about “Astronaut”. How many recommendations could you give for him?
+a.) A customer wants to know the films about â€œAstronautâ€. How many recommendations could you give for him?
 
 SELECT COUNT(title)
 FROM film
 WHERE description LIKE '%stronaut%'
 
 
-b.) I wonder, how many films have rating of  “R” and replacement cost between $5 and $15?
+b.) I wonder, how many films have rating of  â€œRâ€ and replacement cost between $5 and $15?
 
 SELECT COUNT(rating)
 FROM film 
@@ -53,6 +53,6 @@ SELECT CONCAT(c.first_name,' ', c.last_name) customername, c.email, COUNT(pm.cus
 FROM customer c
 INNER JOIN payment pm
 ON c.customer_id = pm.customer_id
-GROUP BY y c.customer_id
+GROUP BY c.customer_id
 HAVING COUNT(pm.customer_id) >= 40
 ORDER BY tran DESC
