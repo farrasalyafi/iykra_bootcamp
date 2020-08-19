@@ -1,2 +1,2 @@
-# iykra_task
-This repository is about assignment from IYKRA Data Science Fellowship Batch 4
+# IYKRA DATA SCIENCE BOOTCAMP REPOSITORY
+This repository is about all assignments from IYKRA Data Science Fellowship Batch 4
